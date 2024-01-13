@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Server" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Server">
+   <children>
+      <Label layoutX="250.0" layoutY="35.0" prefHeight="49.0" prefWidth="101.0" text="Server">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtServerArea" layoutX="40.0" layoutY="92.0" prefHeight="250.0" prefWidth="533.0" />
+      <TextField fx:id="txtServer" layoutX="40.0" layoutY="359.0" prefHeight="25.0" prefWidth="443.0" />
+      <Button layoutX="504.0" layoutY="359.0" mnemonicParsing="false" onAction="#btnServerSendOnAction" prefHeight="25.0" prefWidth="69.0" style="-fx-background-color: green;" text="Send" />
+   </children>
+</AnchorPane>
